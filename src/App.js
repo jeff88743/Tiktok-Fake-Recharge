@@ -22,6 +22,10 @@ export default function App() {
     }, 2000)
   }
 
+  useEffect(() => {
+    document.title = 'Koin TikTok: Beli dan isi ulang Koin untuk mengirim Hadiah | TikTok'
+  }, [submit])
+
   return (
     <div>
       <nav className="flex py-2 px-96 border-b-[1px] justify-between items-center">
